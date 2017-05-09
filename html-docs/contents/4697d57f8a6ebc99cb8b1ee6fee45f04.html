@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Documento de Especificação Funcional</title>
+        <!-- <script src="http://use.edgefonts.net/source-sans-pro;source-code-pro.js"></script> -->
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/icons.css">
+<script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<!-- <script type="text/javascript" src="../assets/js/main.js"></script> -->
+
+    </head>
+    <body>
+        <div>
+
+            <!-- Name Title -->
+
+            <h1>Documento de Especificação Funcional</h1>
+
+            <!-- Type and Stereotype -->
+
+            <section style="margin-top: .5em;">
+                <span class="alert alert-info">
+                    <span class="node-icon _icon-ERDDataModel"></span>
+                    ERDDataModel
+                </span>
+                
+            </section>
+
+            <!-- Path -->
+
+            <section style="margin-top: 10px">
+                
+                
+                
+                    
+                    <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon _icon-Project'></span>Especificação de Requisitos Funcionais</a></span>
+                
+                    <span>::</span>
+                    <span class="label label-info"><a href='4697d57f8a6ebc99cb8b1ee6fee45f04.html'><span class='node-icon _icon-ERDDataModel'></span>Documento de Especificação Funcional</a></span>
+                
+            </section>
+
+            <!-- Diagram -->
+
+            
+
+            <!-- Description -->
+
+            
+            <section>
+                <h3>Description</h3>
+                <div>
+                    
+                        <ol><li>Introdução</li></ol>
+
+<p>O principal propósito da especificação de requisitos está diretamente relacionado à obtenção do detalhamento do programa (finalidade, escopo, definições, acrônimos, abreviações, referências etc.), com o intuito de entregar o produto com a melhor qualidade, confiabilidade e que satisfaçam às reais necessidades do cliente dentro de prazo e orçamento adequados.</p>
+
+<p>1.1 Convenções, termos e abreviações.</p>
+
+<p>A correta interpretação deste documento exige o conhecimento de convenções e termos específicos e abreviações descritas a seguir.</p>
+
+<p>1.1.1 Identificação dos requisitos</p>
+
+<p>Os requisitos devem ser identificados com um identificador único. A numeração inicia com o identificador [RF001] ou [NF001] e prossegue sendo incrementada à medida que forem surgindo novos requisitos.
+              A nomenclatura dos fluxos secundários é dada por uma sigla e por um número. A sigla deve ser FA para fluxos alternativos e FE para fluxos de erro. O número é um sequencial que inicia de 001. Um exemplo de fluxo alternativo é [FA001], de fluxo de erro é [FE001]. A nomenclatura reinicia a cada requisito.</p>
+
+<p>1.1.2 Identificação dos processos</p>
+
+<p>A nomenclatura dos processos segue a mesma regra da nomenclatura de requisitos, ou seja, cada processo é identificado através do identificador do processo na subseção.</p>
+
+<p>1.1.3 Requisitos Funcionais e não Funcionais</p>
+
+<p>Os requisitos são classificados em:</p>
+
+<p> Funcionais - RF- descrever as funcionalidades do sistema desejado pelo cliente, ou seja, o que se espera que o programa faça;</p>
+
+<p> Não-funcionais - NF – buscar as qualidades e restrições globais do programa relacionados com manutenção, uso, desempenho, custo, interface, etc.</p>
+
+<p>1.1.4 Regra de Negócio</p>
+
+<p>Os modelos são considerados uma prática que ajuda a economizar tempo nos processos de planejamento e padronização dos projetos dentro de qualquer empresa, garantindo que a qualidade no gerenciamento seja devidamente cumprida.
+A tradução mais adequada seria como “guia” para a viabilização de uma ideia, de um desejo, é um documento que procura estabelecer a essência da operação da instituição. Ele é atemporal, faz análises sobre o cenário em que o negócio será inserido. Também faz definições sobre o que é o negócio, sua razão de existir, como estruturá-lo, suas funcionalidades e as alternativas às possíveis necessidades de desvio de percurso.
+1.1.5 Linguagem
+A equipe de gerência de projetos definiu a ferramenta Unified Modeling Language - UML (Linguagem de Modelagem Unificada) por contemplar uma série de notações para a construção de diagramas representando diferentes aspectos de um programa, além de não estar presa a metodologias ou tecnologias específicas de desenvolvimento.
+A UML é uma linguagem padrão para visualização, especificação, construção e documentação de um aplicativo ou projeto de software, e objetiva aumentar a produtividade, aperfeiçoar as etapas que envolvem o desenvolvimento de um sistema, aumentando assim a qualidade do produto a ser implementado. A ideia e prover uma visão lógica de todo o processo de forma a facilitar a implementação física do mesmo.</p>
+
+<p>1.1.6 Cliente</p>
+
+<p>A Rede de Ensino JK – Faculdade JK observou a necessidade de uma melhor formação educacional dos graduandos no tocante aos Cursos de Enfermagem e Radiologia concernente à valorização do conteúdo programático, como proposta da formação profissional dos alunos da área hospitalar.
+O trabalho a ser desenvolvido é referente à decisão apresentada pelo cliente, ou seja, WIKI - APRENDIZADO DE FERRAMENTAS DO POLO ASA SUL DA JK – WIKI JK.
+O artefato Documento de Especificação Funcional - DEF, após a apuração de todos os pontos, entregará a equipe de programadores as informações particularizadas do projeto para o desenvolvimento e implementação.
+Ao final do processo teremos documento de requisitos bem definido e entendido por todos os intervenientes do projeto, tais como: clientes, desenvolvedores, líderes, analistas, gerentes, patrocinadores, etc.</p>
+
+<p>1.1.7 Prioridades dos requisitos</p>
+
+<p>Para estabelecer a prioridade dos requisitos, na seção 5, foi adotada as denominações “essencial”, “importante” e “desejável”. </p>
+
+<p>*Essencial é o requisito sem o qual o sistema não entra em funcionamento. Requisitos essenciais são requisitos imprescindíveis, que têm que ser implementados impreterivelmente.
+Importante é o requisito sem o qual o sistema entra em funcionamento, mas de forma não satisfatória. Requisitos importantes devem ser implementados, mas, se não forem, o sistema poderá ser implantado e usado mesmo assim.
+Desejável é o requisito que não compromete as funcionalidades básicas do sistema, isto é, o sistema pode funcionar de forma satisfatória sem ele. Requisitos desejáveis podem ser deixados para versões posteriores da solução, caso não haja tempo hábil para programar-los na versão que está sendo especificada.</p>
+                    
+                </div>
+            </section>
+            
+
+            <!-- Specification -->
+
+            
+
+            <!-- Directed Relationship -->
+
+            
+
+            <!-- Undirected Relationship -->
+
+            
+
+            <!-- Classifier -->
+
+            
+
+            <!-- Interface -->
+
+            
+
+            <!-- Component -->
+
+            
+
+            <!-- Node -->
+
+            
+
+            <!-- Actor -->
+
+            
+
+            <!-- Use Case -->
+
+            
+
+            <!-- Template Parameters -->
+
+            
+
+            <!-- Literals -->
+
+            
+
+            <!-- Attributes -->
+
+            
+
+            <!-- Operations -->
+
+            
+
+            <!-- Receptions -->
+
+            
+
+            <!-- Extension Points -->
+
+            
+
+            <!-- Parameters -->
+
+            
+
+            <!-- Diagrams -->
+
+            
+            
+            <section class="element-list">
+                <h3>Diagrams</h3>
+                <div>
+                    
+                    <div style="display: inline-block; width: 250px; vertical-align: top;">
+                        <div class="member">
+                            <a href="9d353e0bec625280f2b141f144ac5088.html">
+                            <img src="../diagrams/9d353e0bec625280f2b141f144ac5088.svg">
+                            <div style="text-align: center; margin-top: 1em;">(unnamed)</div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+
+            <!-- Behavior -->
+
+            
+
+            <!-- Action -->
+
+            
+
+            <!-- Interaction -->
+
+            
+
+            <!-- CombinedFragment -->
+
+            
+
+            <!-- Activity -->
+
+            
+
+            <!-- State Machine -->
+
+            
+
+            <!-- State Machine -->
+
+            
+
+            <!-- State -->
+
+            
+
+            <!-- Vertex -->
+
+            
+
+            <!-- Transition -->
+
+            
+
+            <!-- Properties -->
+
+            <section>
+                <h3>Properties</h3>
+                
+                <table class="table table-striped table-bordered">
+    <tr>
+        <th width="50%">Name</th>
+        <th width="50%">Value</th>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    <tr>
+        <td>name</td>
+        <td>Documento de Especificação Funcional</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</table>                
+
+            </section>
+
+            <!-- Tags -->
+
+            
+
+            <!-- Constraints, Dependencies, Dependants -->
+
+            
+
+            <!-- Relationships -->
+
+            
+            
+
+
+            <!-- Owned Elements -->
+
+            
+            
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='9d353e0bec625280f2b141f144ac5088.html'><span class='node-icon _icon-ERDDiagram'></span>(ERDDiagram)</a></li>
+        
+    </ul>
+</section>
+
+
+
+        </div>
+    </body>
+</html>
